@@ -46,6 +46,14 @@ function draw() {
     if (mouseIsPressed === true) {
       mousePressed();
     }
+    if (keyIsPressed === true) {
+      keyPressed();
+    }
+  }
+  function keyPressed() {
+    s = random(width);
+    d = random(height)
+    rect(s,d ,100,100);
   }
 }
  
